@@ -17,6 +17,8 @@ ARG ORDERS_DATABASE_PROD
 
 ENV DATABASE_URL=$ORDERS_DATABASE_PROD
 
+RUN echo "database_url ::: $ORDERS_DATABASE_PROD";
+
 WORKDIR /usr/src/app
 
 # Copy from deps, node modules
