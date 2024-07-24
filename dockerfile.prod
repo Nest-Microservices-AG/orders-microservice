@@ -9,7 +9,7 @@ COPY package-lock.json ./
 RUN npm install
 
 
-
+## Run debugg
 # Builder - Built the app
 FROM node:21-alpine3.19 as build
 
